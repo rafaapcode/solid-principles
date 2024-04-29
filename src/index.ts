@@ -1,8 +1,8 @@
-import { Messaging } from "./srp/messaging";
-import { Order } from "./srp/order";
-import { Persistency } from "./srp/persistence";
-import { Product } from "./srp/product";
-import { ShoppingCart } from "./srp/shopping-cart";
+import { Messaging } from "./srp/services/messaging";
+import { Order } from "./srp/entities/order";
+import { Persistency } from "./srp/services/persistence";
+import { Product } from "./srp/entities/product";
+import { ShoppingCart } from "./srp/entities/shopping-cart";
 
 const shoppingCart = new ShoppingCart();
 const msg = new Messaging();
